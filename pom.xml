@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wangsl</groupId>
-    <artifactId>springboot-web</artifactId>
+    <artifactId>docker-springboot</artifactId>
     <version>1.0.0</version>
-    <name>springboot-web</name>
-    <description>springboot-web</description>
+    <name>docker-springboot</name>
+    <description>docker-springboot</description>
     <url/>
     <licenses>
         <license/>
@@ -53,7 +53,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-
             </plugin>
 
         </plugins>

@@ -16,7 +16,7 @@ RUN apt update && apt install -y \
 WORKDIR /app
 
 # 拷贝 Spring Boot 应用程序到容器中的 /app 目录
-COPY target/springboot-web-1.0.0.jar /app/app.jar
+COPY target/docker-springboot-1.0.0.jar /app/app.jar
 
 # 暴露 Spring Boot 应用程序的端口
 EXPOSE 8080

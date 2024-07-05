@@ -10,9 +10,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        tag: v1.0
     container_name: springboot-app
+    image: docker-springboot:${VERSION:-latest}
     ports:
       - "8080:8080"
     depends_on:
